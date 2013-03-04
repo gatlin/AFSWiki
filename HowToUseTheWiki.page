@@ -1,0 +1,86 @@
+---
+title: How to use the wiki
+...
+
+# Editing pages
+
+On a given page, just select the "edit" button on the top horizontal menu.
+
+## Markup language
+
+For accessibility, you edit pages in [Markdown][1]. There is a reference on the sidebar of the edit pages which illustrates a lot of common examples. There is also [an example page](#example-page-markup) in this document.
+
+[Markdown][1] looks a lot like how many people format their emails ([see the end of this page](#example-page-markup)). It is intended that the plain Markdown text looks sort of like the page it will be converted to. Don't think too hard about it.
+
+## Description of changes
+
+You must enter a description of changes before the wiki will let you save. I'm saving you from yourself, I promise.
+
+## Table of Contents
+
+This is automatically generated based on headings. Don't even worry about it!
+
+# Creating pages
+
+You can create a page by just making up a title. For example, I want to make a page called McAllenTheDragonSlayer. 
+
+So I just visit [http://chea.niltag.net/McAllenTheDragonSlayer](http://chea.niltag.net/McAllenTheDragonSlayer) and the wiki will ask me if I wish to create it. It's that simple.
+
+# Example page markup
+
+Below is example markup. To display unformatted text this way, each line is indented 4 spaces.
+
+For more examples, on the side of each page is a link to view "raw page source." It'll show you exactly what was typed up to produce that page. Markdown is very intuitive.
+
+    ---
+    title: My Page Title
+    ...
+    
+    # Heading 1
+    
+    Some text. *Some italicized text.*
+
+    A new paragraph!
+
+    ## Subheading
+
+    **Some bolded text.**
+
+    ## Another subheading
+
+    > I can quote people this way, just like in email.
+    
+    # Heading 2
+    
+    - A list item
+    - Another
+    - final one
+    
+    [A link to outside the wiki.](http://google.com)
+
+    [Another way to write external links.][1]
+
+    [ALinkToAWikiPage]()
+
+    [Link to heading 1](#heading-1)
+
+    *Note in that last link, "Heading 1" is lowercased and the spaces
+    become dashes.*
+
+    [1]: http://niltag.net "Optional link title"
+
+## What it looks like
+
+The [ExamplePage]() is what this example markup looks like when turned into a page.
+
+# Discussion pages
+
+If you've used Wikipedia or other wikis, you know usually pages have a "Talk page" or similar. This wiki is no different.
+
+Take any page URL - say, http://chea.niltag.net/McAllenTheDragonSlayer - and put an @ sign in it like so:
+
+    http://chea.niltag.net/@McAllenTheDragonSlayer
+
+And you are now at the "Discussion page." To edit it, first *go* to the Discussion page using the link at the top and *then* select "edit" from there. This page has a Discussion page - try it out!
+
+[1]: http://daringfireball.net/projects/markdown/basics
